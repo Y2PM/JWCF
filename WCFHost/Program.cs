@@ -20,7 +20,7 @@ namespace WCFHost
 
                 host.Open();
 
-                Console.WriteLine("Press the any key to stop.");
+                Console.WriteLine("Press enter to stop.");
                 Console.ReadLine();
             }
         }

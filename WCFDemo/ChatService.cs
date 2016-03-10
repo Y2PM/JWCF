@@ -10,7 +10,7 @@ namespace WCFDemo
     {
         private List<Chat> _books = new List<Chat>()
         {
-            new Chat { name = "Shmabelend hello"}
+            new Chat { name = "This is a message."}
         };
 
         public List<Chat> GetBooks()
