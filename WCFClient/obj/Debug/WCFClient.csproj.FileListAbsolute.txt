@@ -6,3 +6,6 @@ C:\Users\joseph.bannert\Desktop\WCFDemo\WCFClient\bin\Debug\WCFDemo.dll
 C:\Users\joseph.bannert\Desktop\WCFDemo\WCFClient\bin\Debug\WCFDemo.pdb
 C:\Users\joseph.bannert\Desktop\WCFDemo\WCFClient\obj\Debug\WCFClient.exe
 C:\Users\joseph.bannert\Desktop\WCFDemo\WCFClient\obj\Debug\WCFClient.pdb
+C:\Users\joseph.bannert\Source\Repos\WCFDemo\WCFClient\bin\Debug\WCFClient.exe.config
+C:\Users\joseph.bannert\Source\Repos\WCFDemo\WCFClient\obj\Debug\WCFClient.exe
+C:\Users\joseph.bannert\Source\Repos\WCFDemo\WCFClient\obj\Debug\WCFClient.pdb

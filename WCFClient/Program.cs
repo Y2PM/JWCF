@@ -12,16 +12,22 @@ namespace WCFClient
     {
         static void Main(string[] args)
         {
-            //            J 11566                C    11697                A   11699
-            EndpointAddress endpoint = new EndpointAddress("http://trnlon11699:8081/BookShop");
-            //EndpointAddress endpoint = new EndpointAddress("http://trnlon11566:8081/BookService");//
+            //            J 11566             C    11697             A   11699    ada 11675    abel 11603
+
+            //EndpointAddress endpoint = new EndpointAddress("http://trnlon11699:11675");//ada
+
+            //EndpointAddress endpoint = new EndpointAddress("http://trnlon11697:8081/BookShop");//Cemal
+
+            //EndpointAddress endpoint = new EndpointAddress("http://trnlon11603:8081/BookShop");//abel
+
+            EndpointAddress endpoint = new EndpointAddress("http://trnlon11566:8081/BookService");//Joe
 
 
-            IBookService proxy = ChannelFactory<IBookService>.CreateChannel(new BasicHttpBinding(), endpoint);
+            IChatService proxy = ChannelFactory<IChatService>.CreateChannel(new BasicHttpBinding(), endpoint);
             //             Contract                                               Binding            Address
-            List<Book> books = proxy.GetBooks();
+            List<Chat> books = proxy.GetBooks();
 
-            foreach (Book book in books)
+            foreach (Chat book in books)
             {
                 Console.WriteLine(book.name);
             }

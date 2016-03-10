@@ -42,9 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Book.cs" />
-    <Compile Include="BookService.cs" />
-    <Compile Include="IBookService.cs" />
+    <Compile Include="Chat.cs" />
+    <Compile Include="ChatService.cs" />
+    <Compile Include="IChatService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
