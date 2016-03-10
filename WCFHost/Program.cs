@@ -15,7 +15,7 @@ namespace WCFHost
         {
             using (ServiceHost host = new ServiceHost(typeof(ChatService)))
             {
-                string address = "http://" + Dns.GetHostName() + ":8081/BookService";//FDM free from firewalls port.
+                string address = "http://" + Dns.GetHostName() + ":8081/ChatService";//FDM free from firewalls port.
                 host.AddServiceEndpoint(typeof(IChatService), new BasicHttpBinding(), address);//Can be done in app . config too.
 
                 host.Open();

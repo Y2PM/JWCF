@@ -20,7 +20,7 @@ namespace WCFClient
 
             //EndpointAddress endpoint = new EndpointAddress("http://trnlon11603:8081/BookShop");//abel
 
-            EndpointAddress endpoint = new EndpointAddress("http://trnlon11566:8081/BookService");//Joe
+            EndpointAddress endpoint = new EndpointAddress("http://trnlon11566:8081/ChatService");//Joe
 
 
             IChatService proxy = ChannelFactory<IChatService>.CreateChannel(new BasicHttpBinding(), endpoint);

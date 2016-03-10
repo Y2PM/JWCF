@@ -9,3 +9,8 @@ C:\Users\joseph.bannert\Desktop\WCFDemo\WCFHost\obj\Debug\WCFHost.pdb
 C:\Users\joseph.bannert\Source\Repos\WCFDemo\WCFHost\bin\Debug\WCFHost.exe.config
 C:\Users\joseph.bannert\Source\Repos\WCFDemo\WCFHost\obj\Debug\WCFHost.exe
 C:\Users\joseph.bannert\Source\Repos\WCFDemo\WCFHost\obj\Debug\WCFHost.pdb
+C:\Users\joseph.bannert\Source\Repos\WCFDemo\WCFHost\bin\Debug\WCFHost.exe
+C:\Users\joseph.bannert\Source\Repos\WCFDemo\WCFHost\bin\Debug\WCFHost.pdb
+C:\Users\joseph.bannert\Source\Repos\WCFDemo\WCFHost\bin\Debug\WCFDemo.dll
+C:\Users\joseph.bannert\Source\Repos\WCFDemo\WCFHost\bin\Debug\WCFDemo.pdb
+C:\Users\joseph.bannert\Source\Repos\WCFDemo\WCFHost\obj\Debug\WCFHost.csprojResolveAssemblyReference.cache
