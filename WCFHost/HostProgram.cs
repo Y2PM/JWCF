@@ -9,7 +9,7 @@ using WCFDemo;
 
 namespace WCFHost
 {
-    class Program
+    class HostProgram
     {
         static void Main(string[] args)
         {

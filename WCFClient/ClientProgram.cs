@@ -8,7 +8,7 @@ using WCFDemo;
 
 namespace WCFClient
 {
-    class Program
+    class ClientProgram
     {
         static void Main(string[] args)
         {
