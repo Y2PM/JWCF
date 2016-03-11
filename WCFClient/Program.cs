@@ -25,24 +25,21 @@ namespace WCFClient
             IChatService proxy = ChannelFactory<IChatService>.CreateChannel(new BasicHttpBinding(), endpoint);
             //             Contract                                               Binding            Address
             List<Chat> books = proxy.GetBooks();
-          
+
             /// <summary>
             ///   private List<Chat> books = new List<Chat>()
             ///{
             ///    new Chat { name = "This is a message."}
             ///};
             /// </summary>List<Chat>
-            
+
 
             int x = 1;
             while (x == 1)
             {
-
-                foreach (Chat book in books) { Console.WriteLine(book.name); }//Don't really need it to be a list, byt let's just use it for now.
+                foreach (Chat book in books) { Console.WriteLine(book.name); }
                 Console.WriteLine("enter 1 to continue, or 0 to not");
                 x = Int32.Parse(Console.ReadLine());
-                books[0].name = Console.ReadLine();
-
             }
 
 
