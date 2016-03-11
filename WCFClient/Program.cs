@@ -22,16 +22,30 @@ namespace WCFClient
 
             EndpointAddress endpoint = new EndpointAddress("http://trnlon11566:8081/ChatService");//Joe
 
-
             IChatService proxy = ChannelFactory<IChatService>.CreateChannel(new BasicHttpBinding(), endpoint);
             //             Contract                                               Binding            Address
             List<Chat> books = proxy.GetBooks();
+          
+            /// <summary>
+            ///   private List<Chat> books = new List<Chat>()
+            ///{
+            ///    new Chat { name = "This is a message."}
+            ///};
+            /// </summary>List<Chat>
+            
 
-            foreach (Chat book in books)
+            int x = 1;
+            while (x == 1)
             {
-                Console.WriteLine(book.name);
+
+                foreach (Chat book in books) { Console.WriteLine(book.name); }//Don't really need it to be a list, byt let's just use it for now.
+                Console.WriteLine("enter 1 to continue, or 0 to not");
+                x = Int32.Parse(Console.ReadLine());
+                books[0].name = Console.ReadLine();
+
             }
-            Console.ReadLine();
+
+
         }
     }
 }

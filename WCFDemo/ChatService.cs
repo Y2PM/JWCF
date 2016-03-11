@@ -8,7 +8,7 @@ namespace WCFDemo
 {
     public class ChatService : IChatService
     {
-        private List<Chat> _books = new List<Chat>()
+        public List<Chat> _books = new List<Chat>()
         {
             new Chat { name = "This is a message."}
         };
